@@ -1,0 +1,230 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+section{
+
+    position: absolute;
+
+}
+
+body {
+
+    display: flex;
+
+    background-color: #faca44;
+
+    font-family: "Poppins", sans-serif;
+}
+
+#sec1 {
+    
+    height: 23.3rem;
+
+    min-width: 100%;
+    width: 100%;
+
+    border:  solid 0.5rem black;
+
+}
+
+#pri1 {
+
+    display: flex;
+    
+    width: 50%;
+
+    margin-top: 8rem ;
+
+    justify-content: center;
+    
+}
+
+div{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+#img1 {
+
+    max-width: 30rem;
+    width: 50%;
+
+    margin-top: 2rem;
+
+    border-radius: 1rem;
+
+}
+
+#sec2{
+    
+    border:  solid 0.5rem black;
+
+    height: 29rem;
+    width: 100%;
+
+    top: 49%;
+
+}
+
+#seg1{
+
+    justify-content: top;
+
+    position: relative;
+    width: 100%;
+    height: 5%;
+
+    margin-top: 1rem;
+    margin-left: 5rem;
+
+}
+
+#vid{
+
+    margin-top: 1rem;
+    margin-left: 30%;
+
+    border-radius: 1rem;
+
+}
+
+#sec3{
+
+    top: 110%;
+    border:  solid 0.5rem black;
+    
+    width: 100%;
+    height: 21rem;
+
+}
+
+h2{
+
+    right: 20rem;
+
+    margin-left: 13.6rem;
+
+}
+#h2o{
+
+    margin-left: 11rem;
+
+}
+
+
+.legal{
+    
+    max-width: 15rem;
+    max-height: 10%;
+    
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 10rem;
+    
+    border: #faca44;
+    border-radius: 1rem;
+
+}
+
+#sec4{
+    
+    display: flex;
+    
+    border:  solid 0.5rem black;
+
+    height: 30rem;
+    width: 100%;
+
+    top: 154%;
+
+}
+#img5{
+
+    width: 40%;
+    height: 80%;
+
+    border-radius: 1rem;
+
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-right: 10rem;
+
+}
+
+.form{
+
+    display: flex;
+    flex-direction: column;
+    
+    text-align: start;
+    
+    
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-right: 5rem;
+    
+    width: 30rem;
+    height: 25rem;
+
+}
+
+.label{
+
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 0.9rem;
+    
+    color: #334155;
+
+}
+
+.input{
+
+    height: 1rem;
+    border: 1px solid #475569;
+    border-radius: 0.8rem;
+
+    font-size: 0.8rem;
+    font-family: "Nunito Sans", sans-serif;
+
+    color: #334155;
+    padding: 0.5rem;
+
+}
+
+.button{
+
+    height: 2.5rem;
+    margin-top: 2rem;
+
+    border: 1px solid red;
+    border-radius: 0.8rem;
+
+    font-size: 1rem;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+
+    background-color: red;
+    color: #f8fafc;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.button:hover{
+
+    background-color:transparent;
+    color: #334155;
+
+}
